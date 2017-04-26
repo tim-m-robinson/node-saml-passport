@@ -1,0 +1,17 @@
+{
+  "name": "node-saml-oam",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "express-session": "^1.15.0",
+    "jade": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-saml": "^0.15.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "devDependencies": {}
+}

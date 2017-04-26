@@ -1,0 +1,13 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>    
+</head>
+    <h1>Hello World!</h1>
+    <script>
+    // Google Function URL https://us-central1-second-network-149117.cloudfunctions.net/pi
+    // AWS Lambda URL https://0p4gn1pr5c.execute-api.eu-west-2.amazonaws.com/prod/math
+        $.get('https://0p4gn1pr5c.execute-api.eu-west-2.amazonaws.com/prod/math', function(data,status, xhr) {
+            alert(JSON.stringify(data));
+        });
+    </script>
+</html>
